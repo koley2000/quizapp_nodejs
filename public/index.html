@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js Quiz App</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" src="./quizRenderer.js" defer></script>
+    <div class="container">
+        <h1>Node.js Quiz App</h1>
+        <p>Instructions: Answer the following questions as best as you can.</p>
+        <h4 class="correct-count hide">Correct:</h4>
+        <div id="questions-container"></div>
+        <button id="submit-answers" onclick="submitQuiz()">Submit Answers</button>
+        <div id="results-container"></div>
+    </div>
+</body>
+</html>
